@@ -44,7 +44,7 @@ function play () {
       sliderValue = 0;
       updateSliderPosition(sliderValue);
     } else {
-      // play next hour :) 🎮
+      // play next hour :)
       sliderValue = getValue() + 1;
       updateSliderPosition(sliderValue);
     }

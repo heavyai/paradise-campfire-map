@@ -2,16 +2,16 @@
 export const startDate = new Date('2018-11-08');
 export const endDate = new Date('2018-11-26');
 
-// time slider minor/hours ticks/steps per day 
-// Note: hours period ticks are not displayed on below the time slider 
+// time slider minor/hours ticks/steps per day
+// Note: hours period ticks are not displayed on below the time slider
 // to keep those ticks display UI clean.
-// Only day ticks are displayed on the time slider, 
+// Only day ticks are displayed on the time slider,
 // but users can scrub them with arrow keys and slider mouse clicks
 // for hourly thumb updates and date filter queries
 export const ticksPerDay = 12; // every hour
 
 // replay timer delay in msecs
-export const timerDelay = 500; 
+export const timerDelay = 500;
 
 // access token for MapboxGLJS
 // https://www.mapbox.com/mapbox-gl-js/api/
@@ -26,7 +26,7 @@ export const mapboxConfig = {
   zoom: 2,
   minZoom: 2,
   maxZoom: 16,
-  maxBounds: [[-121.99, 39.48], [-121.13, 39.99]]
+  maxBounds:  [[-121.99, 39.48], [-121.13, 39.99]]
 };
 
 // mapd server connection string
